@@ -1,0 +1,28 @@
+header{
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: auto;
+   justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+header div{
+    width: 30%;
+}
+header div button{
+    font-size: 24px;
+   background: none;
+   border: none;
+   color: rgb(230, 165, 26);
+   font-weight: bold;
+   cursor: pointer;
+}
+header div button a{
+    color: rgb(230, 165, 26);
+    text-decoration: none;
+}
+
+header div button:hover{
+    font-size: 27px;
+}
