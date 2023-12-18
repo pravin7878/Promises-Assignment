@@ -1,0 +1,99 @@
+#container {
+    background-image: url(./image/phone\ pe\ interfas.jpg);
+    width: 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-size: 500px 1000px; */
+    height: 1000px;
+    margin: auto;
+}
+
+#container>div {
+    background-color: white;
+    width: 38%;
+    height: 180px;
+    margin: auto;
+    border-radius: 12px;
+    position: absolute;
+    justify-content: center;
+    top: 70px;
+    left: 390px;
+}
+
+#container>div>div {
+    margin: auto;
+    /* height: 100px; */
+    /* border-radius: 12px; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+#container>div>div>div {
+    width: 15%;
+
+}
+
+#container>div>div>div>button>img {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+#container>div>div>div>h6 {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+#sendmoney{
+   
+}
+.salectcontect{
+    height: 600px;
+    width: 38%;
+    margin: auto;
+    background-color:white;
+    color: rgb(16, 16, 16);
+    border: solid 2px rgb(11, 11, 240);
+     position: fixed;  
+    top: 8px;
+    text-align: center;
+   /* display: grid; */
+    /* flex-direction: column; */
+  
+}
+.bgblue{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(66, 9, 128);
+    color: white;
+    margin: 0px;
+    display: block;
+}
+
+.inputtext{
+    /* text-align: center; */
+    height: 30px;
+    width: 80%;
+    background-color:whitesmoke;
+    color:black;
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    padding-left: 20px;
+    /* border: solid 2px red; */
+    border-radius: 22px;
+}
+.paybtn{
+    height: 30px;
+    width: 40%;
+    background-color:rgb(101, 9, 147);
+    color:white;
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    /* padding-left: 20px; */
+    /* border: solid 2px red; */
+    border-radius: 22px;
+    cursor: pointer;
+}
