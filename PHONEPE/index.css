@@ -97,3 +97,21 @@
     border-radius: 22px;
     cursor: pointer;
 }
+.upibtn{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.paymentsuccess{
+    background-color: green;
+    color: white;
+    text-align: center;
+    height: 400px;
+    /* position: fixed; */
+    position: absolute;
+    top: 0px;
+    left: -7px;
+    width: 103%;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 100px;
+}
